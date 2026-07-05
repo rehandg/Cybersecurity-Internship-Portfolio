@@ -1,0 +1,10 @@
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
