@@ -42,6 +42,23 @@ This repository serves as a portfolio of my internship work and demonstrates my 
 
 ---
 
+## Internship Tasks
+
+The following technical tasks were completed as part of my Cybersecurity Internship at Elevate Labs.
+
+| No. | Task | Description |
+|:---:|------|-------------|
+| 01 | Network Reconnaissance with Nmap | Performed network discovery and port scanning to identify active hosts and services. |
+| 02 | Phishing Email Analysis | Examined phishing emails to identify indicators of compromise and malicious characteristics. |
+| 03 | Basic Vulnerability Assessment | Conducted vulnerability scanning and analyzed identified security issues. |
+| 04 | Windows Firewall Configuration | Configured and tested Windows Firewall rules to strengthen endpoint security. |
+| 05 | Network Traffic Analysis with Wireshark | Captured and analyzed network traffic to understand protocols and identify suspicious activity. |
+| 06 | Password Security Assessment | Evaluated password strength and explored password security best practices. |
+| 07 | Browser Extension Security Review | Reviewed browser extensions and assessed their permissions and security implications. |
+| 08 | VPN Fundamentals | Explored VPN technologies, secure communication principles, and practical applications. |
+
+---
+
 ## Learning Outcomes
 
 During this internship, I gained practical exposure to:
