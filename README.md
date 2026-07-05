@@ -8,7 +8,7 @@
 
 ## Overview
 
-This repository documents the projects, assignments, practical labs, and technical exercises completed during my Cybersecurity Internship at Elevate Labs.
+A portfolio showcasing the practical tasks, labs, documentation, and projects completed during my Cybersecurity Internship at Elevate Labs.
 
 Throughout the internship, I strengthened my understanding of cybersecurity fundamentals through hands-on activities involving Linux, networking, vulnerability assessment, web application security, reconnaissance, and security best practices.
 
