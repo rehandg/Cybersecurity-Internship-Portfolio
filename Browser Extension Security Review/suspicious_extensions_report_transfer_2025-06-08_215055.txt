@@ -1,0 +1,17 @@
+Task 7: Identify and Remove Suspicious Browser Extensions
+
+Steps Taken:
+1. Opened Chrome browser and navigated to chrome://extensions/.
+2. Reviewed all installed extensions.
+3. Checked permissions and user reviews for each extension.
+4. Found 2 suspicious extensions:
+   - "Free VPN Proxy"
+   - "Shopping Assistant"
+5. Removed both extensions.
+6. Restarted the browser and noticed faster startup time.
+7. Researched how malicious extensions can steal data, show ads, or track activity.
+8. Documented all findings and created this report.
+
+Removed Extensions:
+- Free VPN Proxy (Excessive permissions, unknown developer, low ratings)
+- Shopping Assistant (Redirects to unwanted shopping pages)
