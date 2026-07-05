@@ -1,0 +1,21 @@
+Task 8: Working and Understanding VPN
+
+Objective:
+Understand the role of VPNs in protecting privacy and secure communication.
+
+Tools Used:
+- ProtonVPN (free tier)
+- Windscribe (free tier)
+
+Steps Followed:
+1. Chose ProtonVPN as the VPN provider and signed up for a free account.
+2. Downloaded and installed the ProtonVPN client on my system.
+3. Connected to a nearby VPN server using the ProtonVPN app.
+4. Verified that my IP address had changed using https://whatismyipaddress.com (see screenshot: step4_ip_changed.png).
+5. Opened a website to confirm that the traffic was encrypted while connected.
+6. Disconnected the VPN and noted the change in browsing speed and the return to my original IP address (see screenshot: step6_ip_restore.png).
+7. Researched how VPNs use encryption protocols like OpenVPN, IKEv2, and WireGuard, and how they enhance user privacy.
+8. Summarized the key benefits and limitations of VPN usage (see vpn_summary.txt).
+
+Conclusion:
+This task gave hands-on experience with setting up and testing a VPN, and offered valuable insights into its real-world applications for secure communication and online privacy.

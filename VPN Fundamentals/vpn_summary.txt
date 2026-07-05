@@ -1,0 +1,13 @@
+VPN Benefits and Limitations
+
+Benefits:
+- Encrypts internet traffic, protecting data from hackers and surveillance.
+- Masks IP address, enhancing privacy and allowing access to geo-restricted content.
+- Prevents ISP tracking and throttling.
+- Useful on public Wi-Fi networks for security.
+
+Limitations:
+- Free VPNs may have speed/data limitations.
+- VPNs do not protect against phishing or malware.
+- Some websites block traffic from known VPN IPs.
+- Can slightly reduce browsing speed due to encryption overhead.
