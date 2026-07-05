@@ -1,0 +1,96 @@
+
+Windows Firewall Configuration - Documentation
+=============================================
+
+7. Documented Steps and GUI Actions
+-----------------------------------
+
+🔹 Viewing Current Rules
+- Open Start Menu → Search: "Windows Defender Firewall with Advanced Security"
+- In the left pane:
+  - Click "Inbound Rules" to view all incoming traffic rules.
+  - Click "Outbound Rules" to view all outgoing traffic rules.
+
+🔹 Rule 1: Block Inbound Telnet (Port 23)
+Goal: Prevent Telnet-based remote access.
+
+Steps:
+1. Click "Inbound Rules" → "New Rule".
+2. Select "Port" → Click "Next".
+3. Choose "TCP", enter 23 → Next.
+4. Select "Block the connection" → Next.
+5. Apply to "Domain, Private, Public" → Next.
+6. Name the rule: Block Telnet Port 23 → Finish.
+
+🔹 Rule 2: Block ICMP Echo Requests (Ping)
+Goal: Prevent system from responding to ping requests.
+
+Steps:
+1. Click "Inbound Rules" → "New Rule".
+2. Select "Custom" → Next.
+3. Apply to "All programs" → Next.
+4. Choose "Protocol type: ICMPv4" → Click "Customize".
+5. Select "Specific ICMP types" → Check "Echo Request".
+6. Action: "Block the connection" → Next.
+7. Profile: All (Domain, Private, Public) → Next.
+8. Name: Block Ping Requests → Finish.
+
+🔹 Rule 3: Block Inbound RDP Access (Port 3389)
+Goal: Prevent Remote Desktop connections from the network.
+
+Steps:
+1. Click "Inbound Rules" → "New Rule".
+2. Select "Port" → Next.
+3. Choose "TCP", enter port 3389 → Next.
+4. Select "Block the connection" → Next.
+5. Apply to all profiles → Next.
+6. Name: Block RDP Access → Finish.
+
+🔹 Rule 4: Allow File Sharing Only on Local Subnet
+Goal: Restrict file/printer sharing to LAN only.
+
+Steps:
+1. Click "Inbound Rules" → "New Rule".
+2. Select "Port" → Choose "TCP and UDP".
+3. Enter ports: 137-139, 445 → Next.
+4. Action: "Allow the connection" → Next.
+5. On "Scope tab", click “These IP addresses” under Remote IP:
+   - Choose: Local Subnet → Next.
+6. Apply to all profiles → Name: LAN File Sharing Only → Finish.
+
+🔹 Testing the Telnet Rule
+1. Open Command Prompt.
+2. Run: telnet 127.0.0.1 23
+3. Result: Should show "connection failed", confirming the rule works.
+
+💡 Optional: Enable Telnet Client in Control Panel > Programs > Turn Windows Features On or Off.
+
+8. Summary: How a Firewall Filters Traffic
+------------------------------------------
+
+A firewall filters traffic by enforcing a set of rules that inspect network packets. Each packet contains metadata such as:
+
+- Source & Destination IP addresses
+- Source & Destination Ports
+- Protocol type (TCP, UDP, ICMP, etc.)
+- Associated application or service
+
+The firewall applies rules in order:
+
+1. Matches a rule?
+   - If it matches a block rule, the traffic is discarded.
+   - If it matches an allow rule, the traffic is accepted.
+2. No matching rule?
+   - The default policy (usually allow or block) takes effect.
+
+Windows Firewall supports:
+- Inbound rules – filter traffic coming into your system.
+- Outbound rules – filter traffic leaving your system.
+- Program, Port, Protocol, or IP-based rules.
+
+This filtering ensures that:
+- Only trusted, expected communication happens.
+- Malicious or unauthorized access is blocked.
+- Local services (like file sharing) are restricted to secure zones (like the LAN).
+
+✅ Document Complete.
