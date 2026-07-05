@@ -1,0 +1,14 @@
+Delivered-To: john.doe@mybusiness.com
+Received: by mail.mybusiness.com with SMTP id x123456abc;
+        Mon, 27 May 2025 19:45:00 +0000 (UTC)
+Return-Path: <netflix@webnotifications.net>
+Received: from suspicious-host.net ([203.0.113.55])
+        by mail.mybusiness.com with ESMTP id x987654zyx;
+        Mon, 27 May 2025 19:44:58 +0000 (UTC)
+Date: Mon, 27 May 2025 19:44:58 +0000
+From: Netflix Password Reset <netflix@webnotifications.net>
+To: john.doe@mybusiness.com
+Subject: Netflix password expiring in 3 days
+Message-ID: <fakedmsgid123456@example.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
