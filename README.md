@@ -59,6 +59,17 @@ The following technical tasks were completed as part of my Cybersecurity Interns
 
 ---
 
+## Independent Cybersecurity Projects
+
+In addition to the internship tasks, I also developed independent cybersecurity projects to strengthen my practical skills and apply cybersecurity concepts in real-world scenarios.
+
+| Project | Description |
+|---------|-------------|
+| Personal Firewall using Python | Developed a Python-based personal firewall capable of monitoring and filtering network traffic based on predefined security rules, demonstrating practical knowledge of network security and socket programming. |
+| Web Vulnerability Scanner | Developed a web vulnerability scanner to identify common web application security issues through automated scanning techniques, strengthening practical understanding of web security assessment and offensive security concepts. |
+
+---
+
 ## Learning Outcomes
 
 During this internship, I gained practical exposure to:
